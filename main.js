@@ -86,6 +86,7 @@ function draw(){
   y = 0;
   if(draw_apple == "set")
   {
+    console.log("Drawing apple")
     for (i=1; i<=to_number;i++){
       Rng = Math.floor(Math.random());
       x = Rng * 700
@@ -99,6 +100,7 @@ function draw(){
       speak()
     }
   } else if(draw_circle == "set"){
+    console.log("Drawing circle")
     for (i=1; i<=to_number;i++){
       Rng = Math.floor(Math.random());
       x = Rng * 700
@@ -110,6 +112,7 @@ function draw(){
     }
     
   }else if(draw_rectangle == "set"){
+    console.log("Drawing rect")
     for (i=1; i<=to_number;i++){
       Rng = Math.floor(Math.random());
       x = Rng * 700
