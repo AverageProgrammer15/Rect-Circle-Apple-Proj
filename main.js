@@ -42,9 +42,6 @@ function preload(){
     console.log("All images have been loaded")
   }
 
-  if (document.getElementById("p5_loading")){
-    console.error("Canvas might not load!!")
-  }
 }
 
 
@@ -73,6 +70,8 @@ recognition.onresult = function(event) {
   draw_apple = "set";
   console.log("Set to apple")
  }
+
+ console.log(draw_rectangle, draw_circle, draw_apple)
 
  draw();
 
