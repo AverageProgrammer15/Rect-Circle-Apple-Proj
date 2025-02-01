@@ -72,6 +72,7 @@ recognition.onresult = function(event) {
  }
 
  console.log(draw_rectangle, draw_circle, draw_apple)
+ 
 
  draw();
 
@@ -80,6 +81,7 @@ recognition.onresult = function(event) {
 
 
 function draw(){
+  console.log("Drawing....")
   Rng = Math.floor(Math.random());
   x = 0;
   y = 0;
