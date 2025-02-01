@@ -122,7 +122,7 @@ function draw(){
       image(rect, x, y, 50,50)
       speak_data = "Drawn a rectangle"
 
-      
+    }  
       speak()
     } else{
     console.error("No data found")
