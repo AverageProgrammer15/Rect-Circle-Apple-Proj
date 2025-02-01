@@ -123,7 +123,8 @@ function draw(){
 
       
       speak()
-    }
+    } else{
+    console.error("No data found")
   }
 } 
 
